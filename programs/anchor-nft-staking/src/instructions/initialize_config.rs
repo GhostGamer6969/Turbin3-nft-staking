@@ -41,8 +41,8 @@ impl<'info> InitializeConfig<'info> {
             points_per_stake,
             max_stake,
             freeze_period,
-            rewards_bump: bumps.reward_mint,
-            bump: bumps.config_bump,
+            rewards_bump: bumps.rewards_mint,
+            bump: bumps.config,
         });
         Ok(())
     }

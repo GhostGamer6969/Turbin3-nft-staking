@@ -24,6 +24,7 @@ impl<'info> InitializeUser<'info> {
             points: 0,
             amount_stake: 0,
             bump: bumps.user_account,
-        })
+        });
+        Ok(())
     }
 }
