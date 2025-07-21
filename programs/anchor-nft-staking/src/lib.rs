@@ -1,3 +1,5 @@
+#![allow(deprecated)]
+#![allow(unexpected_cfgs)]
 pub mod constants;
 pub mod error;
 pub mod instructions;
@@ -15,7 +17,7 @@ declare_id!("TCAAhoBFnQdjmLqGsgy33sh9hJB7J8C8kH826hko6ue");
 pub mod anchor_nft_staking {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
-        initialize_config::handler(ctx)
+    pub fn initialize_config(ctx: Context<InitializeConfig>) -> Result<()> {
+        todo!()
     }
 }
