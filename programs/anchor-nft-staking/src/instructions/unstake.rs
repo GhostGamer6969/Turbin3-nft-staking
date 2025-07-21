@@ -4,7 +4,7 @@ use anchor_spl::{
         mpl_token_metadata::instructions::{
             ThawDelegatedAccountCpi, ThawDelegatedAccountCpiAccounts,
         },
-        MasterEditionAccount, Metadata, MetadataAccount,
+        Metadata, MetadataAccount,
     },
     token::{revoke, Mint, Revoke, Token, TokenAccount},
 };
