@@ -11,7 +11,7 @@ pub use constants::*;
 pub use instructions::*;
 pub use state::*;
 
-declare_id!("TCAAhoBFnQdjmLqGsgy33sh9hJB7J8C8kH826hko6ue");
+declare_id!("DzEujSCqsyDHcPbjr3WNrDUvjpicMzR2M53tcV54TDE4");
 
 #[program]
 pub mod anchor_nft_staking {

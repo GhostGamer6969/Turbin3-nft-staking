@@ -6,13 +6,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchor_nft_staking = "TCAAhoBFnQdjmLqGsgy33sh9hJB7J8C8kH826hko6ue"
+anchor_nft_staking = "DzEujSCqsyDHcPbjr3WNrDUvjpicMzR2M53tcV54TDE4"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-use anchor_spl::token::Mint;
+use anchor_spl::token::{Mint, Token};
 
 use crate::StakeConfig;
 #[derive(Accounts)]
@@ -25,7 +25,7 @@ pub struct InitializeConfig<'info> {
     )]
     pub rewards_mint: Account<'info, Mint>,
 
-    pub token_program: Program<'info, System>,
+    pub token_program: Program<'info, Token>,
     pub system_program: Program<'info, System>,
 }
 
